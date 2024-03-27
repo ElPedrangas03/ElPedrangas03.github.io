@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos realizados</title>
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/Cruds.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Paraiso Rangel</a></li>
+        </ul>
+        <ul>
+            <li><a href="proveedores.html">Proovedores</a>
+                <ul>
+                    <li><a href="CompraProveedores.html">Ver pedidos</a></li>
+                </ul>
+            </li>
+            <li><a href="ventas.html">Venta</a></li>
+            <li><a href="AdministrarUsuarios.html">Usuarios</a></li>
+            <li><a href="">Inventario</a>
+            <ul>
+                <li><a href="agregarInventario.html">Agregar inventario</a></li>
+                <li><a href="catalogo.html">Ver inventario</a></li>
+            </ul>
+            </li>
+            <li><a href="">Perfil</a>
+            <ul>
+                <li><a href="login.html">Cerrar sesion</a></li>
+            </ul>
+            </li>
+        </ul>
+    </nav>
+    
+
+    <h2>Pedidos realizados</h2>
+    <br>
+    <hr>
+    <br>
+
+    <div id="tablaProveedores">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Producto</th>
+                    <th>Proveedor</th>
+                    <th>Unidades solicitadas</th>
+                    <th>Estatus</th>
+                    <th>Detalles</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Pedido 1 -->
+                <tr>
+                    <td>1</td>
+                    <td>Producto</td>
+                    <td>Proveedor</td>
+                    <td>5</td>
+                    <td>Pedido en proceso</td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Recibido" id="boton">
+                    </td>
+                </tr>
+                <!-- Pedido 2 -->
+                <tr>
+                    <td>2</td>
+                    <td>Producto</td>
+                    <td>Proveedor</td>
+                    <td>3</td>
+                    <td>Pedido en proceso</td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Recibido" id="boton">
+                    </td>
+                </tr>
+                <!-- Pedido 3 -->
+                <tr>
+                    <td>3</td>
+                    <td>Producto</td>
+                    <td>Proveedor</td>
+                    <td>6</td>
+                    <td>Pedido recibido</td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Agregar detalles" id="boton">
+                    </td>
+                </tr>
+                <!-- Pedido 4 -->
+                <tr>
+                    <td>4</td>
+                    <td>Producto</td>
+                    <td>Proveedor</td>
+                    <td>7</td>
+                    <td>Pedido recibido</td>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Agregar detalles" id="boton">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+
+    <div id="contenidoEnd">
+        <div id="superiorTitulo">
+            <img src="img/informacion.png">
+            <h2>Agregar detalles</h2>
+        </div>
+        <div id="datosFinalizar">
+            <div>
+                <label for="description">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea>
+            </div>
+            <br>
+            <hr>
+            <br>
+            <div class="btn-group">
+                <input type="submit" value="Agregar detalles" id="btnModificar">
+                <input type="submit" value="Cancelar" id="btnCancelar">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

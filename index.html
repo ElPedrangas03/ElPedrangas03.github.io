@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Paraiso Rangel</a></li>
+        </ul>
+    </nav>
+
+    <div id="contenedor">
+        <form>
+            <h1 id=login>Inicio de sesión</h1>
+            <img id="imagenLogin" src="img/login.png">
+            <label for="username">Nombre de Usuario:</label><br>
+            <input type="text" id="username" name="username" autocomplete="off" autofocus required minlength="6" maxlength="20"><br><br>
+          
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password" autocomplete="off" required minlength="8" maxlength="30"><br><br>
+          
+            <!-- <input type="submit" value="Iniciar Sesion"> -->
+            <a href="catalogo.html"><input type="button" value="Iniciar Sesión" id="btnlogin"></a>
+        </form>
+        <img src="img/LoginIMG.PNG" id="imgLog">
+    </div>
+
+
+</body>
+</html>

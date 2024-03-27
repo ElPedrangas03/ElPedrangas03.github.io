@@ -1,0 +1,173 @@
+#comp
+{
+    width: 1500px;
+    height: 780px;
+    background: white; 
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 4px;
+    color: Black;
+}
+#tit
+{
+    width: 1500px;
+    background: #24303c; 
+    padding: 1px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    font-size: 1.5em;
+}
+#izq
+{
+    height: 565px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#Completo
+{
+    padding-right: 35px;
+
+}
+#InfoEmp
+{
+    padding: 10px;
+}
+
+#tabla
+{
+    height: 650px;
+}
+#tabla-venta
+{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding-top: 25px;
+    max-height: 550px;
+    overflow-y: auto;
+}
+#tabla-venta thead tr
+{
+    background-color: black;
+    color: white;
+    font-size: 1.1em;
+}
+
+#tabla-venta tbody tr:nth-child(odd)
+{
+    background-color: #f2f2f2; 
+}
+
+#tabla-venta tbody tr:nth-child(even)
+{
+    background-color: #ccc;
+}
+.boton
+{
+    width: 100%;
+}
+#txtBuscar
+{
+    width: auto;
+}
+#ultimo
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50%;
+    padding-right: 10%
+}
+#total
+{
+    padding: 5px;
+}
+#totalsec
+{
+    padding-right: 20px;
+}
+#Efectivo
+{
+    text-align: center;
+    font-weight: 20px;
+}
+#Efectivo select {
+    text-align-last: center;
+    width: 200px;
+}
+#txtEfectivo
+{
+    padding: 30px;
+}
+#cob
+{
+    padding-top: 16px;
+    width: 150px;
+}
+
+#contenidoEnd
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+}
+#superiorTitulo
+{
+    border: 1px solid #000;
+    border-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    width: 50%;
+    align-self: center;
+}
+#superiorTitulo > img
+{
+    width: 10%;
+}
+#datosFinalizar
+{
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 50%;
+    padding: 10px;
+}
+#datosFinalizar > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-self: center;
+}
+#datosFinalizar > div > label
+{
+    font-weight: bold;
+}
+
+#datosFinalizar > div > input
+{
+    width: 70%;
+}
+#btnFinalizar
+{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    background-color: rgb(41, 212, 41);
+    font-weight: bold;
+    font-size: 1.2em;
+    height: 15%;
+    border-top: 0;
+    cursor: pointer;
+}
+#btnFinalizar:hover
+{
+    background-color: rgb(21, 161, 21);
+}
